@@ -1,3 +1,4 @@
+import os
 if os.geteuid() != 0:
     print("Super user olarak çalıştır ")
 else:
